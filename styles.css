@@ -2,11 +2,12 @@
    VARIABLES
 =========================== */
 :root {
-  --primary:       #4F46E5;
-  --primary-dark:  #3730A3;
-  --primary-light: #EEF2FF;
-  --accent:        #06B6D4;
-  --accent-light:  #E0F7FA;
+  --primary:       #06B6D4;
+  --primary-dark:  #0E7490;
+  --primary-light: #ECFEFF;
+  --accent:        #FB923C;
+  --accent-dark:   #EA580C;
+  --accent-light:  #FFF7ED;
   --text:          #0F172A;
   --muted:         #64748B;
   --light:         #94A3B8;
@@ -15,9 +16,9 @@
   --border:        #E2E8F0;
   --r:             16px;
   --r-lg:          24px;
-  --sh:            0 4px 24px rgba(79,70,229,.08);
-  --sh-md:         0 8px 32px rgba(79,70,229,.13);
-  --sh-lg:         0 16px 48px rgba(79,70,229,.17);
+  --sh:            0 4px 24px rgba(6,182,212,.10);
+  --sh-md:         0 8px 32px rgba(6,182,212,.15);
+  --sh-lg:         0 16px 48px rgba(6,182,212,.20);
   --ease:          all .3s cubic-bezier(.4,0,.2,1);
 }
 
@@ -95,7 +96,7 @@ ul   { list-style: none; }
 .btn-primary:hover {
   background: var(--primary-dark);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(79,70,229,.35);
+  box-shadow: 0 8px 24px rgba(6,182,212,.40);
   color: #fff;
 }
 .btn-outline {
@@ -172,6 +173,13 @@ ul   { list-style: none; }
   font-size: .95rem;
   flex-shrink: 0;
 }
+.logo-img {
+  height: 48px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+.footer-brand .logo-img { height: 56px; }
 .nav-links {
   display: flex;
   align-items: center;
@@ -195,7 +203,7 @@ ul   { list-style: none; }
 .nav-cta:hover {
   background: var(--primary-dark) !important;
   color: #fff !important;
-  box-shadow: 0 4px 16px rgba(79,70,229,.35);
+  box-shadow: 0 4px 16px rgba(6,182,212,.40);
 }
 .hamburger {
   display: none;
@@ -224,7 +232,7 @@ ul   { list-style: none; }
 =========================== */
 .hero {
   min-height: 100vh;
-  background: linear-gradient(145deg, #EEF2FF 0%, #E0F2FE 55%, #F0FFFE 100%);
+  background: linear-gradient(145deg, #ECFEFF 0%, #E0F7FA 50%, #FFF7ED 100%);
   padding-top: 72px;
   position: relative;
   overflow: hidden;
@@ -235,12 +243,12 @@ ul   { list-style: none; }
 .shape { position: absolute; border-radius: 50%; }
 .s1 {
   width: 700px; height: 700px;
-  background: radial-gradient(circle, rgba(79,70,229,.13) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(6,182,212,.18) 0%, transparent 70%);
   top: -200px; right: -150px;
 }
 .s2 {
   width: 500px; height: 500px;
-  background: radial-gradient(circle, rgba(6,182,212,.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(251,146,60,.14) 0%, transparent 70%);
   bottom: -150px; left: -100px;
 }
 .hero-inner {
