@@ -150,7 +150,7 @@ ul   { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 92px;
+  height: 110px;
   position: relative;
 }
 .logo {
@@ -174,12 +174,13 @@ ul   { list-style: none; }
   flex-shrink: 0;
 }
 .logo-img {
-  height: 72px;
+  height: 130px;
   width: auto;
   display: block;
   object-fit: contain;
+  margin: -20px 0;
 }
-.footer-brand .logo-img { height: 96px; }
+.footer-brand .logo-img { height: 130px; margin: -20px 0; }
 .nav-links {
   display: flex;
   align-items: center;
@@ -233,7 +234,7 @@ ul   { list-style: none; }
 .hero {
   min-height: 100vh;
   background: linear-gradient(145deg, #ECFEFF 0%, #E0F7FA 50%, #FFF7ED 100%);
-  padding-top: 92px;
+  padding-top: 110px;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -688,7 +689,7 @@ ul   { list-style: none; }
   .nav-links {
     display: none;
     position: absolute;
-    top: 92px; left: 0; right: 0;
+    top: 110px; left: 0; right: 0;
     flex-direction: column;
     background: #fff;
     padding: 16px 20px 20px;
