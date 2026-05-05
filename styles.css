@@ -366,14 +366,18 @@ ul   { list-style: none; }
   box-shadow: var(--sh-md);
 }
 .svc-featured {
-  background: var(--primary);
-  border-color: var(--primary);
+  background: linear-gradient(160deg, #0E7490 0%, #155E75 100%);
+  border-color: #0E7490;
+  box-shadow: 0 12px 40px rgba(14,116,144,.25);
 }
-.svc-featured h3,
-.svc-featured p { color: #fff; }
-.svc-featured .svc-link { color: rgba(255,255,255,.8); }
+.svc-featured h3 { color: #fff; }
+.svc-featured p  { color: rgba(255,255,255,.88); }
+.svc-featured .svc-link { color: rgba(255,255,255,.92); }
 .svc-featured .svc-link:hover { color: #fff; gap: 10px; }
-.svc-featured:hover { border-color: var(--primary-dark); }
+.svc-featured:hover {
+  border-color: #155E75;
+  box-shadow: 0 16px 48px rgba(14,116,144,.35);
+}
 .feat-badge {
   position: absolute;
   top: -12px; left: 50%;
