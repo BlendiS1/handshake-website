@@ -370,10 +370,10 @@ ul   { list-style: none; }
   border-color: #0E7490;
   box-shadow: 0 12px 40px rgba(14,116,144,.25);
 }
-.svc-featured h3 { color: #fff; }
-.svc-featured p  { color: rgba(255,255,255,.88); }
-.svc-featured .svc-link { color: rgba(255,255,255,.92); }
-.svc-featured .svc-link:hover { color: #fff; gap: 10px; }
+.svc-card.svc-featured h3 { color: #fff; }
+.svc-card.svc-featured p  { color: rgba(255,255,255,.92); }
+.svc-card.svc-featured .svc-link { color: rgba(255,255,255,.95); }
+.svc-card.svc-featured .svc-link:hover { color: #fff; gap: 10px; }
 .svc-featured:hover {
   border-color: #155E75;
   box-shadow: 0 16px 48px rgba(14,116,144,.35);
