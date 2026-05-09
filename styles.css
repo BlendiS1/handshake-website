@@ -49,6 +49,7 @@ ul   { list-style: none; }
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+.solid { color: var(--primary); }
 
 .tag {
   display: inline-block;
